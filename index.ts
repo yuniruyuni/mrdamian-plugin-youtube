@@ -5,8 +5,8 @@ import type { Field } from "mrdamian/model/variable";
 type YoutubeConfig = ComponentConfig;
 
 export default class Youtube extends Component<YoutubeConfig> {
-  public async run(): Promise<Field> {
+  public async process(): Promise<Field> {
     // TODO: implement
-    return {};
+    return undefined;
   }
 }
