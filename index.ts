@@ -1,8 +1,8 @@
-import { Component, type ComponentConfig, type Field } from "mrdamian-plugin";
+import type { Action, Component, Field } from "mrdamian-plugin";
 
-type YoutubeConfig = ComponentConfig;
+type YoutubeAction = Action;
 
-export default class Youtube extends Component<YoutubeConfig> {
+export default class Youtube implements Component<YoutubeAction> {
   public async process(): Promise<Field> {
     // TODO: implement
     return undefined;

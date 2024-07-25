@@ -29,7 +29,7 @@
     "type": "tsc --noEmit"
   },
   "dependencies": {
-    "mrdamian-plugin": "^0.0.17"
+    "mrdamian-plugin": "^0.0.19"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
